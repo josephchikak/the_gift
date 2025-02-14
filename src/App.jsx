@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div>
+      
         <main className='w-[100vw] h-[100vh]'>
           <div className='z-10 absolute w-1/4 h-1/4 '>
               <a href="https://africori.to/thegift" target='_blank'  >
@@ -28,7 +28,7 @@ function App() {
           </Canvas>
            
         </main>
-     </div>
+
     </>
   )
 }
