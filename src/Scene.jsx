@@ -80,7 +80,7 @@ const Scene = () => {
             </Text> */}
         </group>
 
-           <Text font='/fonts/Krimson.ttf' position={[0,-2.7,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.3}>
+           <Text font='/fonts/Krimson.ttf' position={[0,-2,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.3}>
                 THE GIFT
             </Text>
     
