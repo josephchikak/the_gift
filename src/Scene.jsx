@@ -26,7 +26,7 @@ const Scene = () => {
   return (
     <>
         <ambientLight intensity={2}/>
-        <mesh position={[0,0,-3]} scale={[scaleFactor, scaleFactor, 1]}>
+        <mesh position={[0,0,-1]} scale={[scaleFactor, scaleFactor, 1]}>
            <planeGeometry args={[10, 10]} />
            <meshBasicMaterial map={backTexture}/>
 
@@ -56,31 +56,37 @@ const Scene = () => {
             >
                 <Star/>
 
-                <group scale={[scaleFactor, scaleFactor, 1]}>
-          
-
-            <Text font='/fonts/Krimson.ttf' position={[0,2.5,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.3}>
-                A soundtrack 
+            <Text font='/fonts/Krimson.ttf' position={[0,2.3,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.5}>
+               SUTÉ IWAR
             </Text>
 
-            <Text font='/fonts/Krimson.ttf' position={[-3,-0,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.3}>
+                <group scale={[scaleFactor, scaleFactor, 1]} >
+          
+
+            <Text font='/fonts/Krimson.ttf' position={[-0,-3.5,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.3}>
+                A soundtrack for navigating life's complexities
+            </Text>
+
+            {/* <Text font='/fonts/Krimson.ttf' position={[-3,-4,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.3}>
               for navigating 
               </Text>
 
-            <Text font='/fonts/Krimson.ttf' position={[3,1,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.7}>
+            <Text font='/fonts/Krimson.ttf' position={[-2,-5,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.7}>
               life's 
             </Text>
 
-            <Text font='/fonts/Krimson.ttf' position={[0,-2.5,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.3}>
+            <Text font='/fonts/Krimson.ttf' position={[-3,-5.5,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.3}>
             complexities
-            </Text>
+            </Text> */}
         </group>
 
-            </PresentationControls>
-            <Text font='/fonts/Krimson.ttf' position={[4,-2.7,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.3}>
+           <Text font='/fonts/Krimson.ttf' position={[0,-2.7,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.3}>
                 THE GIFT
             </Text>
     
+
+            </PresentationControls>
+           
     </>
   
   )

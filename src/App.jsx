@@ -15,14 +15,12 @@ function App() {
           <div className='z-10 absolute w-1/4 h-1/4 '>
               <a href="https://africori.to/thegift" target='_blank'  >
                   {/* <p>CLick me</p> */}
-                  <div className="relative after:content-['Click_to_save'] after:absolute after:top-full after:left-1/2 after:-translate-x-1/2 after:mt-2 after:bg-black after:text-white after:px-2 after:py-1 after:rounded after:text-sm ">
+                  <div className=" relative text-xs sm:text-[24px] after:content-['Click_to_save'] after:absolute after:top-0 after:left-1/2 after:-translate-x-1/2 after:mt-2  after:text-black after:px-2 after:py-1 after:rounded after:w-full">
                     <img src="assets/1.png" alt=" cover art" />
 
                   </div>
                  
-                  {/* <p className=''>
-                     presave
-                  </p> */}
+                
               </a>
           </div>
           <Canvas>

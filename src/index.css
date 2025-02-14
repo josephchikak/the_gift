@@ -1,7 +1,12 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family:'Krimson';
+  src: url('/fonts/Krimson.ttf');
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Krimson, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
