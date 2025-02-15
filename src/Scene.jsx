@@ -56,7 +56,7 @@ const Scene = () => {
             >
                 <Star/>
 
-            <Text font='/fonts/Krimson.ttf' position={[0,1.8,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.5}>
+            <Text font='/fonts/Krimson.ttf' position={[0,1.9,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.5}>
                SUTÉ IWAR
             </Text>
 
@@ -80,7 +80,7 @@ const Scene = () => {
             </Text> */}
         </group>
 
-           <Text font='/fonts/Krimson.ttf' position={[0,-2,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.3}>
+           <Text font='/fonts/Krimson.ttf' position={[0,-1.9,1]} color='white' anchorX="center" anchorY="middle" fontSize={0.3}>
                 THE GIFT
             </Text>
     
